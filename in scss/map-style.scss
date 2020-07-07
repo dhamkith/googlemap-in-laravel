@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------
+# gogle map size
+--------------------------------------------------------------*/
+div#map {
+  height: 280px!important;
+  width: 100%!important;
+}
+ 
+.gm-style-iw.gm-style-iw-c {
+  max-width: 487px;
+  max-height: 164px;
+  background-color: rgba(18, 18, 32, 0.616);
+  .gm-style-iw-d {
+    max-width: 451px;
+    max-height: 128px;
+    //background-color: #000000c2;
+    div {
+      div {
+        color: $white;
+        h5 {}
+        p {
+          // padding-left: .73rem;
+          .icon.address-icon { 
+            display: none;
+            //background-image: url('/images/baseline_icon/baseline_place.png');
+          } 
+        }
+      }
+    }
+  }
+}
+
+.gm-style .gm-style-iw-t::after {
+  background: linear-gradient(45deg,
+  rgba(18, 18, 32, 0.616) 50%,rgba(18, 18, 32, 0) 51%,
+  rgba(18, 18, 32, 0) 100%); 
+}
